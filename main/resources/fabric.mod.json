@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "wgps",
+  "version": "${version}",
+
+  "name": "Wynncraft GPS",
+  "description": "This is a mod that calculates the fastest way to travel from one place to another in Wynncraft.",
+  "authors": [
+    "saulms",
+    "RMPineapple"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/wgps/wynncraft_icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.saulms.wynncraftgps.Main"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.11",
+    "fabric-api": "*",
+    "minecraft": "~1.19.3",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
